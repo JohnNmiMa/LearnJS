@@ -7,8 +7,8 @@ angular.module('stringManipulation')
             z = str2.split("").sort().join("");
 
         return (y === z
-            ? str1 + " and " + str2 + " are anagrams!"
-            : str1 + " and " + str2 + " are not anagrams!"
+            ? str1 + " and " + str2 + " ARE anagrams!"
+            : str1 + " and " + str2 + " are NOT anagrams!"
         );
     }
 }]);
